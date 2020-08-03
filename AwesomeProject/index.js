@@ -46,7 +46,7 @@ const mainRoot = {
                   options: {
                     topBar: {
                       title: {
-                        text: "Me",
+                        text: "尝试写项目",
                         color: "green",
                       }
                     },
