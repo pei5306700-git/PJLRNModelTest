@@ -3,7 +3,9 @@ import React, {Component} from 'react';
 import {
   View,
   Text,
-  Image,StyleSheet
+  Image,
+  StyleSheet,
+  ScrollView
 } from 'react-native';
 
 const imageStyles = StyleSheet.create({
@@ -34,6 +36,7 @@ const imageStyles = StyleSheet.create({
 export default class ImageView extends Component {
   render () {
     return (
+      <ScrollView>
       <View style={{backgroundColor:'green',flex:1,alignItems:"center"}}>
 
         <Image style={imageStyles.image_1}
@@ -54,10 +57,10 @@ export default class ImageView extends Component {
           uri:'https://reactnative.dev/img/tiny_logo.png'
         }}
         />
-
+ {/* 这个貌似不支持  */}
       <Image style={imageStyles.image_2}
         source={{
-         uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg=='
+        //  uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg=='
         }}
         />
         
@@ -65,6 +68,7 @@ export default class ImageView extends Component {
         source={require('../../Images/timg.jpg')}
         />
       </View>
+      </ScrollView>
     )
   }
 }
