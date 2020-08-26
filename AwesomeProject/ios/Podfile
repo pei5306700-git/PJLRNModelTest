@@ -76,6 +76,10 @@ target 'AwesomeProject' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  
+  #ios Orgin
+  
+  pod 'SVProgressHUD', '~> 2.2.5'
 
   target 'AwesomeProjectTests' do
     inherit! :complete

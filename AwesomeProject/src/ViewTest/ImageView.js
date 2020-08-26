@@ -5,8 +5,12 @@ import {
   Text,
   Image,
   StyleSheet,
-  ScrollView
+  ScrollView,
+  requireNativeComponent
 } from 'react-native';
+import ModelView from './ModalView';
+
+const RNPJLView = requireNativeComponent('PJLIOSView',ImageView);
 
 const imageStyles = StyleSheet.create({
   image_1:{
@@ -34,10 +38,24 @@ const imageStyles = StyleSheet.create({
 
 
 export default class ImageView extends Component {
+
+  // constructor(this.props)
+
   render () {
     return (
       <ScrollView>
-      <View style={{backgroundColor:'green',flex:1,alignItems:"center"}}>
+     
+      <View style={{
+      // backgroundColor:'green',
+      flex:1,
+      alignItems:"center"}}>
+
+     <RNPJLView
+       style={{
+        width:100,
+        height:100,
+        // backgroundColor:"black"
+      }} />
 
         <Image style={imageStyles.image_1}
         onProgress={(e)=>{
@@ -72,3 +90,5 @@ export default class ImageView extends Component {
     )
   }
 }
+
+module.exports = ImageView;

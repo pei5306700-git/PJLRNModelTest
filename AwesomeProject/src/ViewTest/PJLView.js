@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import {View,Text, TouchableOpacity,Alert} from "react-native";
 
+
+
 export default class PJLView extends Component{
 
     constructor(){
@@ -11,13 +13,13 @@ export default class PJLView extends Component{
     render(){
 
         return(
-
-            <View style={{
+               <View style={{
                 flexDirection:'row',
                 height:100,
                 padding:20
             }}>
-               
+             
+ 
              <View style={{backgroundColor:'blue',flex:0.3}}>
 
                     <TouchableOpacity style={{flex:1}}
@@ -40,6 +42,7 @@ export default class PJLView extends Component{
               <Text>
                   helllowWord
               </Text>
+            
             </View>
         );
     }

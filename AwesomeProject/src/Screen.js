@@ -12,6 +12,7 @@ import SectionListView from './ViewTest/SectionListView';
 import ActivityIndicatorView from './ViewTest/ActivityIndicatorView';
 import ModelViewScreen from './ViewTest/ModalView';
 
+
 export function reginserScreens(){
 
     Navigation.registerComponent('app.HomeScreen', () =>HomeScreen);    
@@ -25,4 +26,5 @@ export function reginserScreens(){
     Navigation.registerComponent('app.SectionListViewScreen',()=>SectionListView);
     Navigation.registerComponent('app.ActivityIndicatorViewScreen',()=>ActivityIndicatorView);
     Navigation.registerComponent('app.ModelViewScreen',()=>ModelViewScreen);
+   
 }
