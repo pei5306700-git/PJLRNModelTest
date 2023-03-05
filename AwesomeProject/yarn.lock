@@ -4356,9 +4356,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz?cache=0&sync_timestamp=1584051509720&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fminimist%2Fdownload%2Fminimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+  version "1.2.8"
+  resolved "https://registry.npmmirror.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -4922,6 +4922,15 @@ prop-types@15.x.x, prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
+prop-types@^15.5.8:
+  version "15.8.1"
+  resolved "https://registry.npmmirror.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/pseudomap/download/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -4963,7 +4972,7 @@ react-devtools-core@^4.0.6:
     shell-quote "^1.6.1"
     ws "^7"
 
-react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
+react-is@^16.12.0, react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
@@ -4972,11 +4981,6 @@ react-lifecycles-compat@2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/react-lifecycles-compat/download/react-lifecycles-compat-2.0.0.tgz#71d9c4cde47114c4102454f76da055c2bc48c948"
   integrity sha1-cdnEzeRxFMQQJFT3baBVwrxIyUg=
-
-react-native-lyhud@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.npm.taobao.org/react-native-lyhud/download/react-native-lyhud-1.0.8.tgz#b475a91aed5ce8c69a231c8a509acdd86d2ecb69"
-  integrity sha1-tHWpGu1c6MaaIxyKUJrN2G0uy2k=
 
 react-native-navigation@^6.9.1:
   version "6.11.0"
@@ -4988,6 +4992,13 @@ react-native-navigation@^6.9.1:
     prop-types "15.x.x"
     react-lifecycles-compat "2.0.0"
     tslib "1.9.3"
+
+react-native-spinkit@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.npmmirror.com/react-native-spinkit/-/react-native-spinkit-1.5.1.tgz#5b770ce93e1f892b3d1983fd3ce2d7375335eb6b"
+  integrity sha512-XkTgP4e+/MZpbI1GdZTIEQ+6WeMWQT4duWnSiXaaVW7py0rtaBLswtAEA6uXQGUhnxMnPWZhbLz7QponpH3ciQ==
+  dependencies:
+    prop-types "^15.5.8"
 
 react-native-tab-navigator@^0.3.4:
   version "0.3.4"
